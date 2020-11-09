@@ -37,10 +37,12 @@ public class Main {
         s.coolDown();
 
 
+
         Cabbage c = new Cabbage();
         c.stykpris = 8;
         c.holdbarhed = new Date(1608768000);
         c.freeze();
+        System.out.println(c.type);
 
         Leek l = new Leek();
         l.stykpris = 5;
@@ -51,6 +53,7 @@ public class Main {
         p.stykpris = 0.1;
         p.holdbarhed = new Date(1608768000);
         p.freeze();
+        System.out.println(p.type);
 
         Beef beef = new Beef();
         beef.stykpris = 30;
