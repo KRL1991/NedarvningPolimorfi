@@ -7,4 +7,7 @@
 
 public class Peas extends Grønsag {
 
+    String type = "Økologiske Ærter";
+
+
 }
