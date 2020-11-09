@@ -8,6 +8,6 @@
 public class Frugt extends Varer {
 
     void coolDown() {
-        System.out.println("Æblerne køles ned.");
+        System.out.println("Køles ned.");
     }
 }
