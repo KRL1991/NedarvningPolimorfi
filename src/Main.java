@@ -18,10 +18,56 @@ public class Main {
         a.moden = true;
         a.coolDown();
 
+        Banana b = new Banana();
+        b.stykpris = 4;
+        b.moden = true;
+        b.holdbarhed = new Date(1608768000);
+        b.coolDown();
+
+        Grape g = new Grape();
+        g.stykpris = 1;
+        g.moden = true;
+        g.holdbarhed = new Date(1608768000);
+        g.coolDown();
+
+        Strawberry s = new Strawberry();
+        s.stykpris = 3;
+        s.moden = true;
+        s.holdbarhed = new Date(1608768000);
+        s.coolDown();
+
+
+        Cabbage c = new Cabbage();
+        c.stykpris = 8;
+        c.holdbarhed = new Date(1608768000);
+        c.freeze();
+
+        Leek l = new Leek();
+        l.stykpris = 5;
+        l.holdbarhed = new Date(1608768000);
+        l.freeze();
+
         Peas p = new Peas();
         p.stykpris = 0.1;
         p.holdbarhed = new Date(1608768000);
         p.freeze();
+
+        Beef beef = new Beef();
+        beef.stykpris = 30;
+        beef.holdbarhed = new Date(1608768000);
+        beef.coolDown();
+
+        Lam lam = new Lam();
+        lam.stykpris = 45;
+        lam.holdbarhed = new Date(1608768000);
+        lam.coolDown();
+
+        Pork pork = new Pork();
+        pork.stykpris = 35;
+        pork.holdbarhed = new Date(1608768000);
+        pork.coolDown();
+
+
 
     }
 
