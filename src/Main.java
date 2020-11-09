@@ -55,16 +55,19 @@ public class Main {
         Beef beef = new Beef();
         beef.stykpris = 30;
         beef.holdbarhed = new Date(1608768000);
+        beef.weight = 200;
         beef.coolDown();
 
         Lam lam = new Lam();
         lam.stykpris = 45;
         lam.holdbarhed = new Date(1608768000);
+        lam.weight = 150;
         lam.coolDown();
 
         Pork pork = new Pork();
         pork.stykpris = 35;
         pork.holdbarhed = new Date(1608768000);
+        pork.weight = 250;
         pork.coolDown();
 
 
