@@ -2,6 +2,6 @@
 
 public interface Processing {
 
-    public void tilberedning();
+    void tilberedning();
 
 }
