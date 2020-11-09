@@ -8,7 +8,9 @@ import java.util.Date;
  */
 
 // Dette er main class og det er her nye objekter laves og deres variabler defineres
-
+// Opsummering af forståelse for inheritance & polymorphism:
+    //  Inheritance betyder at der er en superklasse som har nogle variabler parametre som subklasserne, kan nedarve fra
+    //  Polymorphism betyder at en klasse kan "nedarve" fra flere klasser selvom man som udgangspunkt kun kan nedarve fra en klasse.
 public class Main {
 
     public static void main(String[] args) {
