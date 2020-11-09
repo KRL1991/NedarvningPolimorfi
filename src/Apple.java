@@ -7,6 +7,7 @@ import java.util.Date;
  * 09/11/2020
  */
 
+// Denne class nedarver fra Frugt klassen og har herudover nogle parametre som kun gør sig gældende for Apple class
 public class Apple extends Frugt {
 
     String sort = "Golden Delicious";

@@ -7,6 +7,8 @@ import java.util.Date;
  * 09/11/2020
  */
 
+// Dette er main class og det er her nye objekter laves og deres variabler defineres
+
 public class Main {
 
     public static void main(String[] args) {

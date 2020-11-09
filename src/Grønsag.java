@@ -5,6 +5,7 @@
  * 09/11/2020
  */
 
+// Denne class nedarver fra Varer class og har en metode som gør sig gældende for Grønsag class
 public class Grønsag extends Varer {
     void freeze() {
         System.out.println("Fryses ned.");

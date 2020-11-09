@@ -6,6 +6,7 @@ import java.util.Date;
  * Licensed under the MIT License
  * 09/11/2020
  */
+// Dette er varer klassen som indholder forskellige parametre som de andre classes kan kalde på
 
 public class Varer {
 
